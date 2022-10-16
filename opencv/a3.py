@@ -28,7 +28,7 @@ for cnt in contours:
 	#print(len(approx), end='')
 	if(len(approx) == 4):
 		print("4 です")
-		print(cnt)
+		print(approx)
     # 輪郭線の描画
     #cv2.drawContours(dst, [approx], -1, (255, 0, 0), 3, cv2.LINE_AA)
 
